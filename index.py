@@ -69,8 +69,8 @@ class mainapp(QMainWindow, FORM_CLASS):
     def load_data(self):
         self.tableWidget.setRowCount(0)
         result = c.execute(
-            '''SELECT * FROM activity 
-            WHERE TIME BETWEEN datetime('now', '-1 months') 
+            '''SELECT * FROM activity
+            WHERE TIME BETWEEN datetime('now', '-1 months')
             AND datetime('now', 'localtime')
              ORDER BY TIME DESC LIMIT 30''')  # last month
 

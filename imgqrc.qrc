@@ -6,5 +6,6 @@
         <file>images/export-color.png</file>
         <file>images/exclamation.png</file>
         <file>images/folder-color.png</file>
+        <file>images/down_arrow.png</file>
     </qresource>
 </RCC>
